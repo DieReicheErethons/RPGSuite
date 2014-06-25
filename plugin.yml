@@ -1,0 +1,9 @@
+name: RPGSuite
+version: 0.1
+main: com.dre.rpgsuite.P
+authors: [Frank Baumann]
+softdepend: [Vault]
+commands:
+  rpgsuite:
+    description: Reference command for RPGSuite.
+    aliases: [rpg,rpgs]
