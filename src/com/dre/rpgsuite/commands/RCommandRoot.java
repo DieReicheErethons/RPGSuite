@@ -15,7 +15,9 @@ public class RCommandRoot {
 	public RCommandRoot() {
 		root = this;
 		
-		// Add Commands;
+		// Add Commands
 		this.commands.add(cmdHelp);
+		this.commands.add(new CMDEditMode());
+		this.commands.add(new CMDCreateBlock());
 	}
 }
